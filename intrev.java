@@ -5,6 +5,8 @@ class intrev
   {
     Scanner sc=new Scanner(System.in);
     int num=sc.nextInt();
-    System.out.println(Integer.valueOf(new StringBuilder(num).reverse()));
+    String s=String.valueOf(num);
+    StringBuilder sb=new StringBuilder(s);
+    System.out.println(sb.reverse());
   }
 }
